@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accesibilidad en la web</title>
+</head>
+<body>
+    <header>
+        <h1>Accesibilidad en la web</h1>
+    </header>
+    <main>
+        <div class="apartado">
+            <div class="titulo-apartado">
+                <h3>Hay proyectos en los que se requiere hacer las pantallas accesibles, la accesibilidad puede 
+                    involucrar muchos tipos de discapacidad, algunos tipos son:</h3>
+        
+                <div class="parrafo-apartado">
+                    <nav>
+                        <ul>
+                            <li>Problemas visuales (ceguera, daltonismo…)</li>
+                            <li>Problemas auditivos (baja audición, sordera…)</li>
+                            <li>Problemas físicos (impedimento de movilidad o ausencia de un miembro)</li>
+                            <li>Problemas cognitivos (discapacidad mental)</li>
+                            <li>Problemas neurológicos (epilepsia, parkinson)</li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+
+        </div>
+        <div class="apartado">
+            <div class="titulo-apartado">
+                <div class="titulo-apartado">
+                    <h3>Accesibilidad en la web - A11Y</h3>
+                </div>
+                <div class="parrafo-apartado">
+                    <p>
+                        Hacer una web accesible nos beneficia a todos,
+                        A11Y nos ayuda a identificar los términos relacionados con accesibilidad digital.
+                    </p>
+                </div>
+                <div class="titulo-apartado">
+                    <h5>WCAG</h5>
+                </div>
+                <div class="parrafo-apartado">
+                    <p>
+                        Los documentos (WCAG) son documentos técnicos que contienen un conjunto de políticas o pautas que 
+                        se deben seguir para hacer el contenido de la web accesible.
+                    </p>
+                </div>
+                <div class="parrafo-apartado">
+                    <p>
+                        Estos documentos son generados por la WAI (Web Accessibility Initiative) que forma parte de la W3C
+                        (World Wide Consortium, principal organización que rige los estándares de internet) 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="apartado">
+            <div class="titulo-apartado"><h3>HTML semántico</h3>
+                <div class="parrafo-apartado">
+                    <p>
+                        No se puede hacer accesible cualquier contenido desarrollado con HTML5, o sea, que el
+                         propósito de una etiqueta sea para finalidad en que la misma fue creada. 
+                         Los lectores de pantalla están por defecto preparados para identificar cada 
+                         una de las etiquetas standard que forman la web. El HTML semántico es esencial 
+                         para conseguir una mejor calidad de usabilidad por defecto.
+                        Se deben cambiar las etiquetas de contenedores por las debidas etiquetas nativas 
+                        dependiendo de su uso (header, aside, footer, main…).
+                    </p>
+                </div>
+                <div class="parrafo-apartado">
+                    <nav>
+                        <ul>
+                            <li>Mantener el focus con buena visibilidad a etiquetas enfocables e importantes 
+                                como botones o enlaces.</li>
+                            <li>Solo usar un título principal (h1) por página pero si podemos usar más de un 
+                                subtítulo (de h2 a h6), siendo usado con sentido.
+                            </li>
+                            <li>
+                                Las imágenes deben tener una descripción cuando tenga sentido tenerla 
+                                (atributo ALT o TITLE). Las imágenes con enlaces en href, deben quedarse con sus atributos vacíos.
+                            </li>
+                            <li>
+                                Se debe utilizar toda la estructura de un formulario para garantizar a los lectores de pantalla que es 
+                                un formulario.
+                            </li>
+                            <li>
+                                Evitar redundancias, usar etiquetas adecuadas al tipo de elemento.
+                            </li>
+                            <li>
+                                Hay componentes distintos que no existen en HTML, estos se cogerán de 
+                                los roles, atributos, disponibles y Javascript.
+                            </li>
+                            <li>
+                                Hacer uso de la propiedad “tabindex”, esta sirve para poder navegar 
+                                con la tecla TAB seleccionando estos elementos (tabindex = -1 no es navegable por la tecla tab)
+                            </li>
+                        </ul>
+                    </nav>
+                </div>            
+            </div>
+        </div>
+        <div class="apartado">
+            <div class="titulo-apartado">
+                <h3>WAI-ARIA</h3>
+                <div class="parrafo-apartado">
+                    <p>
+                        Según la W3C, las aplicaciones de internet enriquecidas (WAI-ARIA = Web 
+                        Accessibility Initiative - Accessible Rich Internet Applications) son un 
+                        conjunto de atributos que definen formas de hacer el contenido y aplicaciones 
+                        web sean más accesibles para las personas con discapacidad. ARIA ofrece a los 
+                        desarrolladores la opción de agregar información semántica complementaria a 
+                        nuestros desarrollos:
+                    </p>
+                    <nav>
+                        <ul>
+                            <li>Roles para describir el tipo de widget presentado, por ejemplo: ‘menú’, 
+                                ‘elemento de árbol’, ‘barra de progreso’...
+                            </li>
+                            <li>
+                                Roles para describir la estructura de la página web, como encabezados, 
+                                regiones, áreas de búsqueda y áreas de navegación.
+                            </li>
+                            <li>
+                                Las propiedades para describir los widgets de estado se encuentran como 
+                                ‘marcada’ para una casilla de verificación, ‘haspopup’ para un menú que 
+                                representa un submenú u otra ventana emergente y ‘expandido / contraído’ 
+                                para un nodo de árbol.
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
